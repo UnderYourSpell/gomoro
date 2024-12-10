@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome! on Moro Bamber</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome! on Moro Bamber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Dec 2024 22:14:54 -0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senior Capstone - Car Crash Analysis</title>
+      <link>http://localhost:1313/projects/senior_capstone/</link>
+      <pubDate>Mon, 09 Dec 2024 22:14:54 -0900</pubDate>
+      
+      <guid>http://localhost:1313/projects/senior_capstone/</guid>
+      <description>Alaska Car Crash Analysis For my Senior Capstone project at UAA I worked with two other undergraduate students to find meaningful insights into car crash data to inform Alaska Department of Transportation policy.
+We also developed a web application to aid further research by allowing users who are unfamiliar with programming to explore and analyze the crash data.
+My contributions to the project includes the pre-processing and addition of data categorizing crashes into urban, rural, and suburban areas, as well as being the lead developer for the web app.</description>
+      <content>&lt;h1 id=&#34;alaska-car-crash-analysis&#34;&gt;Alaska Car Crash Analysis&lt;/h1&gt;
+&lt;p&gt;For my Senior Capstone project at UAA I worked with two other undergraduate students to find meaningful insights into car crash
+data to inform Alaska Department of Transportation policy.&lt;/p&gt;
+&lt;p&gt;We also developed a web application to aid further research by allowing users who are unfamiliar with programming
+to explore and analyze the crash data.&lt;/p&gt;
+&lt;p&gt;My contributions to the project includes the pre-processing and addition of data categorizing crashes into urban, rural, and suburban areas, as well as being the lead developer for the web app. The web app was made with the Django framework, I also wrote most of the css and all the html for the pages except for the home page.&lt;/p&gt;
+&lt;p&gt;Read our final report here: &lt;em&gt;Link to final report&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;home&#34; src=&#34;http://localhost:1313/django_app/site.png&#34;&gt;
+&lt;img alt=&#34;datasets&#34; src=&#34;http://localhost:1313/django_app/datasets.png&#34;&gt;
+&lt;img alt=&#34;urbrural&#34; src=&#34;http://localhost:1313/django_app/for_pres_urban_rural.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Check out the site here &lt;a href=&#34;https://mwbamber.pythonanywhere.com/&#34;&gt;https://mwbamber.pythonanywhere.com/&lt;/a&gt;
+Note: You need a username and password given by me to access the data due to its sensitive nature&lt;/p&gt;
+&lt;p&gt;UAA College of Engineering Website Showcase &lt;em&gt;Link to pres&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>The Traveling Salesman Problem</title>
+      <link>http://localhost:1313/projects/travelingsalesman/</link>
+      <pubDate>Sun, 08 Dec 2024 22:14:54 -0900</pubDate>
+      
+      <guid>http://localhost:1313/projects/travelingsalesman/</guid>
+      <description>Solving the Traveling Salesman Problem with the Genetic Algorithm in C++ For an undergrad AI class, I wrote a Genetic Algorithm (GA) to solve the Traveling Salesman Problem (TSP) in C++. I implemented several different operators for Selection, Crossover, and Mutation, 40 permuations of these operators can be used.
+TravelingSalesmanGAReport.pdf
+https://github.com/UnderYourSpell/TravelingSalesmanGA
+Speed vs. Accuracy: Heuristic Travling Salesman Problem Approaches During my undergrad, I also co-authored a paper on different heuristic methods for solving the TSP.</description>
+      <content>&lt;h1 id=&#34;solving-the-traveling-salesman-problem-with-the-genetic-algorithm-in-c&#34;&gt;Solving the Traveling Salesman Problem with the Genetic Algorithm in C++&lt;/h1&gt;
+&lt;p&gt;For an undergrad AI class, I wrote a Genetic Algorithm (GA) to solve the Traveling Salesman Problem (TSP) in C++. I implemented several different operators for Selection, Crossover, and Mutation, 40 permuations of these operators can be used.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/TravelingSalesmanGAReport.pdf&#34;&gt;TravelingSalesmanGAReport.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/UnderYourSpell/TravelingSalesmanGA&#34;&gt;https://github.com/UnderYourSpell/TravelingSalesmanGA&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/z6zc55DdEBw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;speed-vs-accuracy-heuristic-travling-salesman-problem-approaches&#34;&gt;Speed vs. Accuracy: Heuristic Travling Salesman Problem Approaches&lt;/h1&gt;
+&lt;p&gt;During my undergrad, I also co-authored a paper on different heuristic methods for solving the TSP. We tested 3 algorithms for speed and optimal path length. The algorithms were Christofides, GA, and Ant Colony Optimization (ACO).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/Bamber_Seto_Kageyama_PLC_Report.docx.pdf&#34;&gt;Bamber_Seto_Kageyama_PLC_Report.docx.pdf&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>BGP and Internet Access in the Circumpolar North</title>
+      <link>http://localhost:1313/projects/bgppython/</link>
+      <pubDate>Sat, 09 Dec 2023 22:14:54 -0900</pubDate>
+      
+      <guid>http://localhost:1313/projects/bgppython/</guid>
+      <description>Understanding the Internet Backbone in the Circumpolar North I was the lead author on a paper addressing internet access in the circumpolar north that addressed BGP and ASes. Border Gateway Protocol (BGP) is the protocol that governs communcation between Networks (also called Autonomous Systems) or ASes. These networks are administered by Internet Service Providers or ISPs. I presented the paper at INFOCOM 2024 in Kingston, ON, Canada. I also presented a posterboard version of the paper at the Murdock Undergraduate Science Conference 2024 in Vancouver, WA.</description>
+      <content>&lt;h1 id=&#34;understanding-the-internet-backbone-in-the-circumpolar-north&#34;&gt;Understanding the Internet Backbone in the Circumpolar North&lt;/h1&gt;
+&lt;p&gt;I was the lead author on a paper addressing internet access in the circumpolar north that addressed BGP and ASes. Border Gateway Protocol (BGP) is the protocol that governs communcation between Networks (also called Autonomous Systems) or ASes. These networks are administered by Internet Service Providers or ISPs. I presented the paper at INFOCOM 2024 in Kingston, ON, Canada. I also presented a posterboard version of the paper at the Murdock Undergraduate Science Conference 2024 in Vancouver, WA.&lt;/p&gt;
+&lt;p&gt;Read it here: &lt;a href=&#34;http://localhost:1313/projects/CCECE_24_DmDuo.pdf&#34;&gt;CCCE_24_DmDuo.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;bgp-python-as-lookup&#34;&gt;BGP Python AS Lookup&lt;/h1&gt;
+&lt;p&gt;The development of BGP python AS lookup was inspired by a repository found on Cisco Developer (pyjoeypy06). I thought that the code was interesting and learned of the API it was using to pull the BGP data from the internet.  The API seemed underutilized so I set out to make more use of it.  The app works by appending the entered ASN to a link to the api, which then responds with JSON data.  It then parses through the JSON data for the specific information each section of information may need for the given AS.  The information is stored in object variables so the app can store more than one AS’s data.   It uses string concatenation to display the result in plaintext format.The project was built in Python and the UI was built using TKinter (a built in python graphics library).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;app1&#34; src=&#34;http://localhost:1313/bgp/moro_app_1.png&#34;&gt;
+&lt;img alt=&#34;app2&#34; src=&#34;http://localhost:1313/bgp/moro_app_2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/UnderYourSpell/BGP_python_AS_Lookup&#34;&gt;https://github.com/UnderYourSpell/BGP_python_AS_Lookup&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mobile Virtual Graphing Caluclator</title>
+      <link>http://localhost:1313/projects/mcvcalc/</link>
+      <pubDate>Sat, 09 Dec 2023 22:14:54 -0900</pubDate>
+      
+      <guid>http://localhost:1313/projects/mcvcalc/</guid>
+      <description>MVGCalc I was part of a team that for a Software Engineering class in my undergrad built a graphing calculator for mobile phones. It can do basic operations, as well as graphing, and also has a unit converter. The majority of my work on the project was how we take input, process it, then give the user an output. I also implemented a data persistence solution and the entire unit converter - frontend and backend.</description>
+      <content>&lt;h1 id=&#34;mvgcalc&#34;&gt;MVGCalc&lt;/h1&gt;
+&lt;p&gt;I was part of a team that for a Software Engineering class in my undergrad built a graphing calculator for mobile phones.  It can do basic operations, as well as graphing, and also has a unit converter. The majority of my work on the project was how we take input, process it, then give the user an output.  I also implemented a data persistence solution and the entire unit converter  - frontend and backend.&lt;/p&gt;
+&lt;p&gt;It was written in Python and uses PyQt for the GUI. We used NumPy for the math operations.&lt;/p&gt;
+&lt;p&gt;Download .exe from google drive &lt;a href=&#34;https://drive.google.com/drive/folders/1FL7p2IKNtsRZe7CULhQaINIeTw1hT7kr?usp=drive_link&#34;&gt;https://drive.google.com/drive/folders/1FL7p2IKNtsRZe7CULhQaINIeTw1hT7kr?usp=drive_link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;calc1&#34; src=&#34;http://localhost:1313/mvgcalc/mvg_basic_2.png&#34;&gt;
+&lt;img alt=&#34;calc2&#34; src=&#34;http://localhost:1313/mvgcalc/mvg_graph_display.png&#34;&gt;
+&lt;img alt=&#34;calc3&#34; src=&#34;http://localhost:1313/mvgcalc/mvg_unit_conv.png&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>Hello! My name is Moro Bamber and I am 24 years old from Toronto, Canada. I am a recent graduate of the University of Alaska Anchorage with a BS in Computer Science. I am interested in many things; including financial markets, computer networks, building software, skiing, climbing, music, and more. Having a background in competitive ski racing has given me key attributes to be succseful in life. I am disciplined, hardworking, and a team player.</description>
+      <content>&lt;h1 id=&#34;hello&#34;&gt;Hello!&lt;/h1&gt;
+&lt;p&gt;My name is Moro Bamber and I am 24 years old from Toronto, Canada. I am a recent graduate of the University of Alaska Anchorage with a BS in Computer Science. I am interested in many things; including financial markets, computer networks, building software, skiing, climbing, music, and more. Having a background in competitive ski racing has given me key attributes to be succseful in life. I am disciplined, hardworking, and a team player. In my studies at UAA, I transitioned from pursuing a degree in Mechanical Engineering to Computer Science due to my newfound interest in computer programming. It was something that I thoroughly enjoyed and wanted to do more of. Along the way I have discovered a passion for problem solving through code.&lt;/p&gt;
+&lt;p&gt;Last summer, I was fortunate enough to complete a 4 month internship at the Royal Bank of Canada in their Global Markets program.
+I sat with the ETF trading desk and worked with them to maintain and develop their backend systems. I have accepted an offer to join RBC Capital Markets full-time in summer 2025 in Toronto as an analyst in their Global Markets division. I am currently a ski racing coach for the Alyeska Ski Club in Girdwood, AK.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;ME&#34; src=&#34;http://localhost:1313/me.jpg&#34;&gt;Me Presenting my Senior Capstone Project on Automobile Crashes in Alaska&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Resume and Contact Information</title>
+      <link>http://localhost:1313/posts/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/info/</guid>
+      <description>Download Resume Email morobamber@gmail.com
+GitHub https://github.com/UnderYourSpell</description>
+      <content>&lt;h5 id=&#34;download-resumebambermorocv2024pdf&#34;&gt;&lt;a href=&#34;./BamberMoroCV2024.pdf&#34;&gt;Download Resume&lt;/a&gt;&lt;/h5&gt;
+&lt;p&gt;Email
+&lt;a href=&#34;mailto:morobamber@gmail.com&#34;&gt;morobamber@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub
+&lt;a href=&#34;https://github.com/UnderYourSpell&#34;&gt;https://github.com/UnderYourSpell&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/blog/first-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/first-post/</guid>
+      <description>Test Introduction Bold Text
+italics
+==highlighted==?</description>
+      <content>&lt;h1 id=&#34;test-introduction&#34;&gt;Test Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Bold Text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;==highlighted==?&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
