@@ -11,7 +11,13 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-09T22:14:54-09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/travelingsalesman/</loc>
+    <lastmod>2024-12-08T22:14:54-09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/bgppython/</loc>
+    <lastmod>2023-12-09T22:14:54-09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/mcvcalc/</loc>
     <lastmod>2023-12-09T22:14:54-09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/about/</loc>

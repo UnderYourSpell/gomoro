@@ -18,4 +18,4 @@ My name is Moro Bamber and I am 24 years old from Toronto, Canada. I am a recent
 Last summer, I was fortunate enough to complete a 4 month internship at the Royal Bank of Canada in their Global Markets program.
 I sat with the ETF trading desk and worked with them to maintain and develop their backend systems. I have accepted an offer to join RBC Capital Markets full-time in summer 2025 in Toronto as an analyst in their Global Markets division. I am currently a ski racing coach for the Alyeska Ski Club in Girdwood, AK.
 
-![ME](/me.jpg)Me Presenting my Senior Capstone Project on Automobile Crashes in Alaska
+![ME](/me.jpg)Presenting my Senior Capstone Project on Automobile Crashes in Alaska
