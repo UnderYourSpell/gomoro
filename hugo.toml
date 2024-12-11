@@ -1,4 +1,4 @@
-baseURL = 'https://UnderYourSpell.github.io/'
+baseURL = 'https://UnderYourSpell.github.io/gomoro/'
 languageCode = 'en-us'
 title = 'Moro Bamber Personal Site'
 theme = 'terminal'
