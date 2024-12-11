@@ -1,6 +1,6 @@
-baseURL = 'https://UnderYourSpell.'
+baseURL = 'https://UnderYourSpell.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Moro Bamber Personal Site'
 theme = 'terminal'
 
 paginate = 5
