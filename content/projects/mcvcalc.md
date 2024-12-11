@@ -20,6 +20,6 @@ It was written in Python and uses PyQt for the GUI. We used NumPy for the math o
 
 Download .exe from google drive https://drive.google.com/drive/folders/1FL7p2IKNtsRZe7CULhQaINIeTw1hT7kr?usp=drive_link
 
-![calc1](/static/mvgcalc/mvg_basic_2.png)
-![calc2](/static/mvgcalc/mvg_graph_display.png)
-![calc3](/static/mvgcalc/mvg_unit_conv.png)
+![calc1](/mvgcalc/mvg_basic_2.png)
+![calc2](/mvgcalc/mvg_graph_display.png)
+![calc3](/mvgcalc/mvg_unit_conv.png)
