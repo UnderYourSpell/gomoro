@@ -24,9 +24,9 @@ My contributions to the project includes the pre-processing and addition of data
 
 Read our final report here: *Link to final report*
 
-![home](/django_app/site.png)
-![datasets](/django_app/datasets.png)
-![urbrural](/django_app/for_pres_urban_rural.png)
+![home](/static/django_app/site.png)
+![datasets](/static/django_app/datasets.png)
+![urbrural](/static/django_app/for_pres_urban_rural.png)
 
 Check out the site here https://mwbamber.pythonanywhere.com/
 Note: You need a username and password given by me to access the data due to its sensitive nature

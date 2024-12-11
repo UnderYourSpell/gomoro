@@ -22,7 +22,7 @@ Read it here: [CCCE_24_DmDuo.pdf](/projects/CCECE_24_DmDuo.pdf)
 
 The development of BGP python AS lookup was inspired by a repository found on Cisco Developer (pyjoeypy06). I thought that the code was interesting and learned of the API it was using to pull the BGP data from the internet.  The API seemed underutilized so I set out to make more use of it.  The app works by appending the entered ASN to a link to the api, which then responds with JSON data.  It then parses through the JSON data for the specific information each section of information may need for the given AS.  The information is stored in object variables so the app can store more than one AS’s data.   It uses string concatenation to display the result in plaintext format.The project was built in Python and the UI was built using TKinter (a built in python graphics library). 
 
-![app1](/bgp/moro_app_1.png)
-![app2](/bgp/moro_app_2.png)
+![app1](/static/bgp/moro_app_1.png)
+![app2](/static/bgp/moro_app_2.png)
 
 https://github.com/UnderYourSpell/BGP_python_AS_Lookup
