@@ -22,7 +22,7 @@ to explore and analyze the crash data.
 
 My contributions to the project includes the pre-processing and addition of data categorizing crashes into urban, rural, and suburban areas, as well as being the lead developer for the web app. The web app was made with the Django framework, I also wrote most of the css and all the html for the pages except for the home page.
 
-Read our final report here: *Link to final report*
+[AKCrashAnalysis Report](/projects/AKCrashAnalysisFinalReport.pdf)
 
 ![home](/django_app/site.png)
 ![datasets](/django_app/datasets.png)
@@ -30,5 +30,3 @@ Read our final report here: *Link to final report*
 
 Check out the site here https://mwbamber.pythonanywhere.com/
 Note: You need a username and password given by me to access the data due to its sensitive nature
-
-UAA College of Engineering Website Showcase *Link to pres*

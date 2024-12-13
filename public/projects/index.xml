@@ -22,13 +22,12 @@ data to inform Alaska Department of Transportation policy.&lt;/p&gt;
 &lt;p&gt;We also developed a web application to aid further research by allowing users who are unfamiliar with programming
 to explore and analyze the crash data.&lt;/p&gt;
 &lt;p&gt;My contributions to the project includes the pre-processing and addition of data categorizing crashes into urban, rural, and suburban areas, as well as being the lead developer for the web app. The web app was made with the Django framework, I also wrote most of the css and all the html for the pages except for the home page.&lt;/p&gt;
-&lt;p&gt;Read our final report here: &lt;em&gt;Link to final report&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/AKCrashAnalysisFinalReport.pdf&#34;&gt;AKCrashAnalysis Report&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;home&#34; src=&#34;http://localhost:1313/django_app/site.png&#34;&gt;
 &lt;img alt=&#34;datasets&#34; src=&#34;http://localhost:1313/django_app/datasets.png&#34;&gt;
 &lt;img alt=&#34;urbrural&#34; src=&#34;http://localhost:1313/django_app/for_pres_urban_rural.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Check out the site here &lt;a href=&#34;https://mwbamber.pythonanywhere.com/&#34;&gt;https://mwbamber.pythonanywhere.com/&lt;/a&gt;
 Note: You need a username and password given by me to access the data due to its sensitive nature&lt;/p&gt;
-&lt;p&gt;UAA College of Engineering Website Showcase &lt;em&gt;Link to pres&lt;/em&gt;&lt;/p&gt;
 </content>
     </item>
     
