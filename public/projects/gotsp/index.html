@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>TSP in Go :: Moro Bamber</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My Introduction to the Go language Go has long intrigued me. When doing research on the Border Gateway Protocol I stumbled upon the creator of https://bgp.tools GitHub and he had several projects written in the language. Since this person was writing in Go, it must have some utility, I thought. Since then I had wanted to do something with the language but Inever had a good reason for it.
+After I completed my undergrad, I tried doing codecademy courses on Go." />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/projects/gotsp/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.fa4f0119d2353fc6f53234287734eddf28af909a5e2b843a2fafdfde36bf9033.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="TSP in Go">
+<meta property="og:description" content="My Introduction to the Go language Go has long intrigued me. When doing research on the Border Gateway Protocol I stumbled upon the creator of https://bgp.tools GitHub and he had several projects written in the language. Since this person was writing in Go, it must have some utility, I thought. Since then I had wanted to do something with the language but Inever had a good reason for it.
+After I completed my undergrad, I tried doing codecademy courses on Go." />
+<meta property="og:url" content="http://localhost:1313/projects/gotsp/" />
+<meta property="og:site_name" content="Moro Bamber" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-01-05 22:14:54 -0900 AKST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Moro Bamber
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="http://localhost:1313/about">About Me</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/projects">Projects</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="http://localhost:1313/about" >About Me</a></li>
+        
+      
+        
+          <li><a href="http://localhost:1313/projects" >Projects</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/projects/gotsp/">TSP in Go</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-01-05</time></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="my-introduction-to-the-go-language">My Introduction to the Go language<a href="#my-introduction-to-the-go-language" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Go has long intrigued me. When doing research on the Border Gateway Protocol I stumbled upon the creator of <a href="https://bgp.tools">https://bgp.tools</a> GitHub and he had several projects written in the language. Since this person was writing in Go, it must have some utility, I thought. Since then I had wanted to do something with the language but Inever had a good reason for it.</p>
+<p>After I completed my undergrad, I tried doing codecademy courses on Go. These are dreadfully boring, and since I already knew how to code, I felt like I could learn the syntax on the fly while building something I was interested in.</p>
+<p>I wanted to extend my research on the Traveling Salesman Problem (TSP) and thought that writing an implementation of some algorithms in Go could be fun.</p>
+<h1 id="the-tsp-in-go----a-learning-experience">The TSP in Go -  A Learning Experience<a href="#the-tsp-in-go----a-learning-experience" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Right off the bat, I enjoyed writing the TSP implementation of the Genetic Algorithm. I followed my C++ code I wrote and made language specific modifications.  I also looked for ways to improve the code as well.</p>
+<p>I found writing Go code intuitive. I really like its syntax as well as its quirks. It is clearly a language designed with intentions to be useful and make one&rsquo;s life easier. The auto complete program and syntax checker was forcing me to write efficient and non-redundant code. I was forced to cut any fat that existed in my C++ implementation.</p>
+<p>Once I finished the first complete set of GA operators, I noticed in my tests how fast the program was running. I am talking about magnitudes of 20x faster than my C++ code. While I did make some modifications for performance, the code is doing a similar amount of operations. I was and am still amazed at how fast Go code runs. I questioned C++ and its perfromance benefits, and I stumbled upon this video <a href="https://www.youtube.com/watch?v=02rh1NjJLI4&t=54s">https://www.youtube.com/watch?v=02rh1NjJLI4&t=54s</a>. It talks about how carefully written python can be much faster than C++. The performance difference comes down to how poorly written C++ can be combiled into garbage assembly code. I thouhgt to myself, ok there is something in this C++ code that is slowing this down a ton. And since the Go implenetation is written similarily to the C++ code, Go must be removing this garbage assembly in place of something much better.  Thus proving that Go will allow someone of mediocre skill in the language to write something that runs half-decently. As I said before, I felt forced by the language to write better code.</p>
+<p>All things said, I had a great experience working with Go and will continue to use the language where I can in the future.</p>
+<h2 id="genetic-algorithm-in-go-for-the-tsp">Genetic Algorithm in Go for the TSP<a href="#genetic-algorithm-in-go-for-the-tsp" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>As mentioned, I essetially converted my C++ code to Go code for the Genetic Algorithm implementation.  I won&rsquo;t talk too much about that here because I have several documents supporting my research on the topic here <a href="http://localhost:1313/projects/travelingsalesman/">TSP</a>.</p>
+<h2 id="christofides-algorithm">Christofides Algorithm<a href="#christofides-algorithm" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>I also tackled the Christofides algorithm in Go. See my paper on it in the Traveling Salesman Project post: <a href="http://localhost:1313/projects/travelingsalesman/">TSP</a>.
+This was also nice to write in the language as its map feature made things much easier than working with C++.</p>
+<h3 id="check-out-the-code-here-httpsgithubcomunderyourspelltspgo">Check out the code here: <a href="https://github.com/UnderYourSpell/tspgo">https://github.com/UnderYourSpell/tspgo</a><a href="#check-out-the-code-here-httpsgithubcomunderyourspelltspgo" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="future-work">Future Work<a href="#future-work" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>I intend to extend my research on the TSP further, likely using my Go implementation as opposed to my C++ implementation.</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="http://localhost:1313/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
