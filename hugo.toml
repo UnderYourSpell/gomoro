@@ -14,7 +14,7 @@ canonifyURLs = true
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
   showLanguageSelector = false
@@ -64,10 +64,9 @@ canonifyURLs = true
             url = "/about"
             [[languages.en.menu.main]]
             identifier = "Projects"
-            name = "Projects"
+            name = "My Projects"
             url = "/projects"
-            #not added a blog yet
-            #[[languages.en.menu.main]]
-            #identifier = "blog"
-            #name = "Blog"
-            #url = "/blog"
+            [[languages.en.menu.main]]
+            identifier = "papers"
+            name = "Papers"
+            url = "/papers"
